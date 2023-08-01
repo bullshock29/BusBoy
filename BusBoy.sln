@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusBoy", "BusBoy\BusBoy.csproj", "{E7334398-834C-44C7-9DF7-DFDAFAC727EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusBoy", "BusBoy\BusBoy.csproj", "{E7334398-834C-44C7-9DF7-DFDAFAC727EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{21361916-9728-4C5C-8BE0-D47757D6BF8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClient", "TestClient\TestClient.csproj", "{E33F9A0D-1886-4A5B-AA1C-C32F9D780C7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestServer", "TestServer\TestServer.csproj", "{B7575B14-94FF-4C8F-82F7-82E1A8228C7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,21 @@ Global
 		{E7334398-834C-44C7-9DF7-DFDAFAC727EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7334398-834C-44C7-9DF7-DFDAFAC727EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7334398-834C-44C7-9DF7-DFDAFAC727EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33F9A0D-1886-4A5B-AA1C-C32F9D780C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33F9A0D-1886-4A5B-AA1C-C32F9D780C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33F9A0D-1886-4A5B-AA1C-C32F9D780C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33F9A0D-1886-4A5B-AA1C-C32F9D780C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7575B14-94FF-4C8F-82F7-82E1A8228C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7575B14-94FF-4C8F-82F7-82E1A8228C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7575B14-94FF-4C8F-82F7-82E1A8228C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7575B14-94FF-4C8F-82F7-82E1A8228C7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E33F9A0D-1886-4A5B-AA1C-C32F9D780C7C} = {21361916-9728-4C5C-8BE0-D47757D6BF8C}
+		{B7575B14-94FF-4C8F-82F7-82E1A8228C7F} = {21361916-9728-4C5C-8BE0-D47757D6BF8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6B2393B-59C2-4C7B-A036-043D4CA30AC7}
